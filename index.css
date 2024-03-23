@@ -31,6 +31,19 @@ nav ul li {
     list-style: none;
     margin: 0 23px;
     cursor: pointer;
+    font-weight: 400;
+    font-size: medium;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover {
+    transition: 0.2s ease-out;
+    color: violet;
+    text-decoration: underline;
 }
 
 .left {
@@ -40,10 +53,11 @@ nav ul li {
 .first-Section {
     display: flex;
     justify-content: space-around;
-    margin: 23px 0;
+    text-align: left;
+    margin: 40px 0;
 }
 
-.first-Section > div {
+.first-Section>div {
     /* background-color: red; */
     width: 30%;
 }
@@ -58,7 +72,7 @@ nav ul li {
 
 .right-Section img {
     /* background-color: red; */
-    width: 80%;
+    width: 100%;
     margin: 50px 0;
 }
 
