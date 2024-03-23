@@ -43,7 +43,6 @@ nav ul li a {
 nav ul li a:hover {
     transition: 0.2s ease-out;
     color: violet;
-    text-decoration: underline;
 }
 
 .left {
@@ -54,7 +53,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     text-align: left;
-    margin: 40px 0;
+    margin: 35px 0;
 }
 
 .first-Section>div {
@@ -78,4 +77,36 @@ nav ul li a:hover {
 
 .purple {
     color: violet;
+}
+
+#element {
+    color: violet;
+}
+
+.second-section {
+    max-width: 81vw;
+    margin: auto;
+    height: 85vh;
+}
+
+.second-section h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+main hr {
+    border: 0;
+    background: rgb(39, 39, 110);
+    height: 1.2px;
+    margin: 40px 134px;
+}
+
+.box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px;
 }

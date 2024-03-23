@@ -1,4 +1,4 @@
 var typed = new Typed('#element', {
-    strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+    strings: ['Web Developer', 'Designer', 'Artist', 'Developer'],
     typeSpeed: 50,
   });
