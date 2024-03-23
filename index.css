@@ -18,6 +18,10 @@ nav {
     height: 70px;
 }
 
+nav .left {
+    margin-right: 360px;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -39,16 +43,25 @@ nav ul li {
     margin: 23px 0;
 }
 
-.first-Section div {
+.first-Section > div {
+    /* background-color: red; */
     width: 30%;
 }
 
 .left-Section {
-    background-color: red;
-    width: 34px;
+    /* background-color: red; */
+    /* width: 34px; */
+    font-size: 3rem;
+    margin: 70px 0;
 
 }
 
-.right-Section {
-    background-color: blue;
+.right-Section img {
+    /* background-color: red; */
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple {
+    color: violet;
 }
