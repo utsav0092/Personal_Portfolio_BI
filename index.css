@@ -37,7 +37,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 nav ul li a:hover {
@@ -86,7 +86,7 @@ nav ul li a:hover {
 .second-section {
     max-width: 81vw;
     margin: auto;
-    height: 85vh;
+    height: 90vh;
 }
 
 .second-section h1 {
@@ -104,9 +104,85 @@ main hr {
     margin: 40px 134px;
 }
 
-.box {
+.second-section .box {
     background-color: white;
-    width: 80vw;
+    width: 81vw;
     height: 2px;
-    margin: 56px;
+    margin: 56px 0;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.second-section .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    width: 150px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: rgb(11, 11, 55);
+    /* height: 200px; */
+}
+
+.footer {
+    display: flex;
+    /* width: 81vw;
+    margin: auto; */
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer-first {
+    width: 223px;
+}
+
+footer .footer-rights {
+    padding: 12px 0;
+    text-align: center;
+}
+
+.left-Section .btn {
+    padding: 12px;
+    background-color: rgb(38, 11, 38);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.left-Section .btn:hover {
+    transition: 0.2s ease-out;
+    background-color: rgb(173, 26, 173);
+}
+
+.left-Section .buttons {
+    padding: 50px 0;
 }
