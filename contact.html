@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(0, 0, 33);
+            ;
+        }
+
+        .container {
+            color: white;
+            max-width: 40vw;
+            margin: 50px auto;
+            padding: 20px 35px;
+            background: rgba(255, 255, 255, 0.09);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(3.5px);
+            -webkit-backdrop-filter: blur(3.5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        h1 {
+            color: violet;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .my-contact p {
+            text-align: left;
+        }
+
+        .my-contact p a {
+            text-decoration: none;
+            color: violet;
+        }
+
+        /* .violet {
+        color: violet;
+      }*/
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me using the form below:</p>
+        <form action="#" method="post">
+            <div class="form-group">
+                <!-- <label for="name" class="violet">Your Name:</label> -->
+                <input placeholder="Name" type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <!-- <label for="email" class="violet">Your Email:</label> -->
+                <input placeholder="Email" type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <!-- <label for="message" class="violet">Message:</label> -->
+                <textarea placeholder="Write something" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="my-contact">
+            <p>Visit my LinkdIn porfile: <a href="https://www.linkedin.com/in/utsav-chouhan-862633266">LinkdIn</a></p>
+            <p>Visit my Github profile: <a href="/">Github</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
